@@ -1,0 +1,31 @@
+/* mystyles.css */
+
+/* Estilos para el contenedor especial */
+.my-special-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Fondo gris claro */
+    padding: 20px;
+}
+
+
+.my-special-container .text {
+    flex: 1;
+    padding-right: 40px; /* Espacio entre el texto y la imagen */
+    font-size: 16px;
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilos específicos para la imagen en el contenedor especial */
+.my-special-container .image {
+    flex: 1;
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos específicos para la imagen dentro del contenedor especial */
+.my-special-container img {
+    max-width: 100%;
+    height: auto;
+    
+   
+}

@@ -1,0 +1,5 @@
+/* Estilo para las imágenes más pequeñas */
+.small-image {
+    max-width: 900px; /* Ancho máximo deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+}
